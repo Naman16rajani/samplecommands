@@ -1,0 +1,13 @@
+git init
+git add .
+git commit -m "message"
+heroku create
+git push heroku master 
+heroku logs
+change port to process.env.PORT
+for update
+git init
+git add .
+git commit -m "message"
+git push heroku master 
+
