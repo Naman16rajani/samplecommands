@@ -11,4 +11,7 @@ for remote:
 git remote add origin link of git hub repository         -(ex: git remote add origin https://github.com/Naman16rajani/Blame-Your-Game.git)
 git push -u origin master
 
+to remove from staging area : 
+git rm --cached -r .
+
 
