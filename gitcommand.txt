@@ -9,7 +9,12 @@ git checkout <filename>    - rolback to last version
 
 for remote:
 git remote add origin link of git hub repository         -(ex: git remote add origin https://github.com/Naman16rajani/Blame-Your-Game.git)
-git push -u origin master
+git branch -M main
+git push -u origin main
+or
+git pull --rebase origin main
+git push -u origin main
+
 
 to remove from staging area : 
 git rm --cached -r .
